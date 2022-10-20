@@ -1,0 +1,123 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: #f3fdfd ;
+}
+.main {
+    background: #e3f0f0 ;
+    border-radius: 50%;
+    height: 1100px;
+    width: 1100px;
+    position: relative;
+    margin-left: 10%;
+    margin-top: -15%;
+    margin-bottom: -50%;
+    /* 
+     Child elements with absolute positioning will be 
+     positioned relative to this div 
+    */
+  }
+.secondary{
+    position: absolute;
+    background: #dbe7e7 ;
+    border-radius: 50%;
+    height: 700px;
+    width: 700px;
+    /*
+     Put top edge and left edge in the center
+    */
+    top: 50%;
+    left: 50%;
+    margin: -360px 0px 0px -350px;
+    /* 
+     Offset the position correctly with
+     minus half of the width and minus half of the height 
+    */
+  }
+  aside{
+    height: 730px;
+    width: 1250px;
+    overflow: hidden;
+  }
+  .hy{
+    background-color: blue;
+  }
+  body{
+    margin: 0%;
+    padding: 0%;
+}
+
+table{
+    border: 0px solid blue;
+    margin-top: 100px;
+    width: 400px;
+    height: 500px;
+    background-color: transparent;
+}
+.hy{
+    height: 100px;
+    background-color: #3D81E5;
+    color: white;
+    text-align: center;
+    border: 1px solid blue;
+}
+.si{
+    text-align: center;
+    background-color: white;
+    
+}
+tr{
+  background-color: white;
+}
+input{
+    width: 330px;
+    height: 30px;
+    margin-left: 5%;
+}
+label{
+    margin-left: 5%;
+}
+button{
+  width: 70px;
+  height: 30px;
+  color: white;
+  background-color: #3D81E5;
+}
+button:hover{
+    cursor: pointer;
+}
+input[placeholder]{
+    opacity: 0.5;
+    border: 0px;
+}
+p{
+    opacity: 0.5;
+}
+b{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serifSS;
+}
+#but{
+    width: 300px;
+}
+#changer{
+    width: 30px;
+    height: 33px;
+    border: 1px solid red;
+    float: right;
+    margin-right: 30px;
+    background-color: #3D81E5;
+}
+i{
+    margin-top: 20%;
+    margin-left: 20%;
+}
+i:hover{
+    cursor: pointer;
+}
+#icon{
+    float: left;
+    margin-right: -30px;
+}
+#slash{
+    visibility: hidden;
+}
